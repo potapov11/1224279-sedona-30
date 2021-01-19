@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Сергей Потапов](https://up.htmlacademy.ru/htmlcss/30/user/1224279).
-* Наставник: `Неизвестно`.
+- Студент: [Сергей Потапов](https://up.htmlacademy.ru/htmlcss/30/user/1224279).
+- Наставник: [Владимир Борисенко] (https://htmlacademy.ru/profile/id1310789).
 
 ---
 
