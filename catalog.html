@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--Header-->
+    <header>
+        <nav>
+            <ul>
+            <li><a href="blank.html">Гостиницы</a></li>
+            <li><a href="blank.html">Карта штата</a></li>
+            </ul>
+        </nav>
+        <a><img src="img/logo.png" alt="Логотип сайта" width="138" height="70"></a>
+        <nav>
+            <ul>
+            <li><a href="blank.html">Фото и видео</a></li>
+            <li><a href="blank.html">Информация</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Формы фильтров-->
+    <section>
+        <h2>Фильтр поиска жилья</h2>   <!---Invisible--->
+        <form action="https://echo.htmlacademy.ru">
+            <fieldset>
+                <legend>Инфраструктура</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="swimming_pool" id="filter_swimming_pool" checked>
+                        <label for="filter_swimming_pool">Бассейн</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="parking" id="filter_parking">
+                        <label for="filter_parking">Паркинг</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="red" id="filter_red">
+                        <label for="filter_red">WI-FI</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Тип жилья</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="hotel" id="filter_hotel" checked>
+                        <label for="filter_hotel">Гостиница</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="motel" id="filter_motel" checked>
+                        <label for="filter_motel">Мотель</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="apartments" id="filter_apartments" checked>
+                        <label for="filter_apartments">Апартаменты</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Стоимость в сутки</legend>
+                <input type="range" min="0" max="3000" name="cost" id="filter_cost">
+                <label for="filter_cost"></label>
+            </fieldset>
+            <button type="button">Показать</button>
+        </form>
+    </section>
+    <section>
+        <h2>Результат фильтра</h2>  <!---Invisible--->
+        <ul>
+            <li>
+                <img src="img/Layer1.png" alt="Фото гостиницы" width="135" height="90">
+                <p>Amara Resort & Spa</p>
+                <p>Гостиница</p>
+                <p>От 4000 Р.</p>
+                <button type="button">Подробнее</button>
+                <button type="button">Забронировать</button>
+            </li>
+            <li>
+                <img src="img/Layer2.png" alt="Фото мотеля" width="135" height="90">
+                <p>Desert Quail Inn</p>
+                <p>Мотель</p>
+                <p>От 3000 Р.</p>
+                <button type="button">Подробнее</button>
+                <button type="button">Забронировать</button>
+            </li>
+            <li>
+                <img src="img/layer3.png" alt="Фото апартаментов" width="135" height="90">
+                <p>Villas at Poco Diablo</p>
+                <p>Апартаменты</p>
+                <p>От 2000 Р.</p>
+                <button type="button">Подробнее</button>
+                <button type="button">Забронировать</button>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+
+        <section>
+          <h2>Контакты</h2>      <!--invisible-->
+          <p>#visitSEDONA</p>
+          <a href="ТЕЛ:+74956660166">ТЕЛ: +7(495) 666-01-66</a>
+        </section>
+  
+        <section>
+          <h2>Социальные сети</h2>      <!--invisible-->
+          <ul>
+            <li><a href="twitter.com"><img src="img/twitter.svg" alt="лого твиттер" width="17" height="17"></a></li>
+            <li><a href="twitter.com"><img src="img/fb-icon.svg" alt="лого фейсбук" width="12" height="22"></a></li>
+            <li><a href="twitter.com"><img src="img/youtube.svg" alt="лого ютуб" width="22" height="16"></a></li>
+          </ul>
+        </section>
+  
+        <section>
+          <p>Website by</p>
+          <a href="htmlacademy.ru"><img src="img/logo-htmlacademy.svg" alt="лого академии"  width="115" height="41">></a>
+        </section>
+      </footer>
+</body>
+</html>
