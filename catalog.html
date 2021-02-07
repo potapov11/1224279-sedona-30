@@ -1,17 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-<<<<<<< Updated upstream
-<head>
-  <meta charset="UTF-8">
-  <link rel="icon" href="favicon.ico">
-  <link rel="icon" href="img/favicon-152.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="img/favicon-180.png">
-  <link rel="manifest" href="manifest.webmanifest">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-=======
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -22,7 +10,6 @@
   </head>
 
 <body class="page-body">
->>>>>>> Stashed changes
   
   <!--Header-->
   <header class="header">
@@ -34,13 +21,8 @@
         <li class="header_nav_item"><a class="header_nav_link" href="catalog.html">Гостиницы</a></li>
       </ul>
     </nav>
-<<<<<<< Updated upstream
-    <a href="index.html"><img src="https://gksouz-mk.ru/products/opory-truboprovodov/no-foto.jpg" alt="Логотип сайта" width="138" height="70"></a>
-    </header>
-=======
     <a><img class="img_logo" src="https://komfort-pluss.ru/wp-content/uploads/2020/01/net-izobrazheniya-730x485.jpg" alt="Логотип сайта" width="138" height="70"></a>
   </header>
->>>>>>> Stashed changes
 
   <!--Формы фильтров-->
   <section сlass="search_flat">
@@ -51,15 +33,15 @@
         <ul class="sort_list">
           <li class="sort_item">
             <input class="checkbox_filter" type="checkbox" name="swimming_pool" id="filter_swimming_pool" checked>
-            <label for="filter_swimming_pool">Бассейн</label>
+            <label class="label_sort_text" for="filter_swimming_pool">Бассейн</label>
           </li>
           <li class="sort_item">
             <input class="checkbox_filter" type="checkbox" name="parking" id="filter_parking">
-            <label for="filter_parking">Паркинг</label>
+            <label class="label_sort_text" for="filter_parking">Паркинг</label>
           </li>
           <li class="sort_item">
             <input class="checkbox_filter" type="checkbox" name="red" id="filter_red">
-            <label for="filter_red">WI-FI</label>
+            <label class="label_sort_text" for="filter_red">WI-FI</label>
           </li>
         </ul>
       </fieldset>
@@ -68,15 +50,15 @@
         <ul class="sort_list">
           <li class="sort_item">
             <input class="checkbox_filter" type="checkbox" name="hotel" id="filter_hotel" checked>
-            <label for="filter_hotel">Гостиница</label>
+            <label class="label_sort_text" for="filter_hotel">Гостиница</label>
           </li>
           <li class="sort_item">
             <input class="checkbox_filter" type="checkbox" name="motel" id="filter_motel" checked>
-            <label for="filter_motel">Мотель</label>
+            <label class="label_sort_text" for="filter_motel">Мотель</label>
           </li>
           <li class="sort_item">
             <input class="checkbox_filter" type="checkbox" name="apartments" id="filter_apartments" checked>
-            <label for="filter_apartments">Апартаменты</label>
+            <label class="label_sort_text" for="filter_apartments">Апартаменты</label>
           </li>
         </ul>
       </fieldset>
@@ -92,15 +74,15 @@
   <section class="sort">
     <div>
       <p class="sort_text">Найдено: 3</p>
-      <p class="sort_text">Сортировка:</p>
+      <p class="sort_subtext">Сортировка:</p>
       <div>
-        <label>
+        <label class="radio_text">
           <input class="radiobutton" type="radio" name="sort">По цене
         </label>
-        <label>
+        <label class="radio_text">
           <input class="radiobutton" type="radio" name="sort">По типу
         </label>
-        <label>
+        <label class="radio_text">
           <input class="radiobutton" type="radio" name="sort">По рейтингу
         </label>
       </div>
@@ -115,17 +97,8 @@
         </label>
       </div>
     </div>
+    
     <h2>Результат фильтра</h2>  <!---Invisible--->
-<<<<<<< Updated upstream
-    <ul>
-      <li>
-        <img src="img/city1-catalog.jpg" alt="Фото гостиницы" width="135" height="90">
-        <p>Amara Resort & Spa</p>
-        <p>Гостиница</p>
-        <p>От 4000 Р.</p>
-        <button type="button">Подробнее</button>
-        <button type="button">Забронировать</button>
-=======
     <ul class="content_list">
       <li class="content_item">
         <img class="img_content" src="https://gksouz-mk.ru/products/opory-truboprovodov/no-foto.jpg" alt="Фото гостиницы" width="135" height="90">
@@ -134,19 +107,9 @@
         <p class="content_subtext">От 4000 Р.</p>
         <button class="button" type="button">Подробнее</button>
         <button class="button" type="button">Забронировать</button>
->>>>>>> Stashed changes
         <span></span> <!---Для звездочек-->
         <p class="rating">Рейтинг: 8,5</p>
       </li>
-<<<<<<< Updated upstream
-      <li>
-        <img src="img/city2-catalog.jpg" alt="Фото мотеля" width="135" height="90">
-        <p>Desert Quail Inn</p>
-        <p>Мотель</p>
-        <p>От 3000 Р.</p>
-        <button type="button">Подробнее</button>
-        <button type="button">Забронировать</button>
-=======
       <li class="content_item">
         <img class="img_content" src="https://gksouz-mk.ru/products/opory-truboprovodov/no-foto.jpg" alt="Фото мотеля" width="135" height="90">
         <p class="content_text">Desert Quail Inn</p>
@@ -154,19 +117,9 @@
         <p class="content_subtext">От 3000 Р.</p>
         <button class="button" type="button">Подробнее</button>
         <button class="button" type="button">Забронировать</button>
->>>>>>> Stashed changes
         <span></span> <!---Для звездочек-->
         <p class="rating">Рейтинг: 8,9</p>
       </li>
-<<<<<<< Updated upstream
-      <li>
-        <img src="img/city3-catalog.jpg" alt="Фото апартаментов" width="135" height="90">
-        <p>Villas at Poco Diablo</p>
-        <p>Апартаменты</p>
-        <p>От 2000 Р.</p>
-        <button type="button">Подробнее</button>
-        <button type="button">Забронировать</button>
-=======
       <li class="content_item">
         <img class="img_content" src="https://gksouz-mk.ru/products/opory-truboprovodov/no-foto.jpg" alt="Фото апартаментов" width="135" height="90">
         <p class="content_text">Villas at Poco Diablo</p>
@@ -174,7 +127,6 @@
         <p class="content_subtext">От 2000 Р.</p>
         <button class="button" type="button">Подробнее</button>
         <button class="button" type="button">Забронировать</button>
->>>>>>> Stashed changes
         <span></span> <!---Для звездочек-->
         <p class="rating">Рейтинг: 9,2</p>
         
