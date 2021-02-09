@@ -28,17 +28,6 @@
 
 /*-----index_style----*/
 
-li {
-  list-style: none;
-}
-
-.header_nav_item,
-.section_item,
-.social_item,
-.sort_item,
-.content_item {
-  list-style: none;
-}
 
 .header_nav_link {
   font-weight: 700;
@@ -176,10 +165,6 @@ li {
   color: var(--almost-gray);
 }
 
-.button {
-  color: var(--white-color);
-  text-transform: uppercase;
-}
 
 .subbutton {
   background-color: var(--light-brown-color);
