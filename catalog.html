@@ -14,152 +14,152 @@
     <title>HTML Academy: Седона</title>
   </head>
 
-<body class="page_body">
-  
-  <!--Header-->
-  <header class="header">
-    <nav class="header_nav">
-      <ul class="header_nav_list">
-        <li class="header_nav_item"><a class="header_nav_link" href="blank.html">Информация</a></li>
-        <li class="header_nav_item"><a class="header_nav_link" href="blank.html">Фото и видео</a></li>
-        <li class="header_nav_item"><a class="header_nav_link" href="blank.html">Карта штата</a></li>
-        <li class="header_nav_item"><a class="header_nav_link" href="catalog.html">Гостиницы</a></li>
-      </ul>
-    </nav>
-    <a><img class="img_logo" src="https://komfort-pluss.ru/wp-content/uploads/2020/01/net-izobrazheniya-730x485.jpg" alt="Логотип сайта" width="138" height="70"></a>
-  </header>
-
-  <!--Формы фильтров-->
-  <section сlass="search_flat">
-    <h2>Фильтр поиска жилья</h2>   <!---Invisible--->
-    <form action="https://echo.htmlacademy.ru" method="POST">
-      <fieldset>
-        <legend class="name_form">Инфраструктура</legend>
-        <ul class="sort_list">
-          <li class="sort_item">
-            <input class="checkbox_filter" type="checkbox" name="swimming_pool" id="filter_swimming_pool" checked>
-            <label class="label_sort_text" for="filter_swimming_pool">Бассейн</label>
-          </li>
-          <li class="sort_item">
-            <input class="checkbox_filter" type="checkbox" name="parking" id="filter_parking">
-            <label class="label_sort_text" for="filter_parking">Паркинг</label>
-          </li>
-          <li class="sort_item">
-            <input class="checkbox_filter" type="checkbox" name="red" id="filter_red">
-            <label class="label_sort_text" for="filter_red">WI-FI</label>
-          </li>
-        </ul>
-      </fieldset>
-      <fieldset>
-        <legend class="name_form">Тип жилья</legend>
-        <ul class="sort_list">
-          <li class="sort_item">
-            <input class="checkbox_filter" type="checkbox" name="hotel" id="filter_hotel" checked>
-            <label class="label_sort_text" for="filter_hotel">Гостиница</label>
-          </li>
-          <li class="sort_item">
-            <input class="checkbox_filter" type="checkbox" name="motel" id="filter_motel" checked>
-            <label class="label_sort_text" for="filter_motel">Мотель</label>
-          </li>
-          <li class="sort_item">
-            <input class="checkbox_filter" type="checkbox" name="apartments" id="filter_apartments" checked>
-            <label class="label_sort_text" for="filter_apartments">Апартаменты</label>
-          </li>
-        </ul>
-      </fieldset>
-      <fieldset>
-        <legend class="name_form">Стоимость в сутки</legend>
-        <input type="range" min="0" max="3000" name="cost" id="filter_cost">
-        <label for="filter_cost"></label>
-      </fieldset>
-      <button class="button_catalog" type="submit">Показать</button>
-    </form>
-  </section>
-
-  <section class="sort">
-    <div>
-      <p class="sort_text">Найдено: 3</p>
-      <p class="sort_subtext">Сортировка:</p>
-      <div>
-        <label class="radio_text">
-          <input class="radiobutton" type="radio" name="sort">По цене
-        </label>
-        <label class="radio_text">
-          <input class="radiobutton" type="radio" name="sort">По типу
-        </label>
-        <label class="radio_text">
-          <input class="radiobutton" type="radio" name="sort">По рейтингу
-        </label>
-      </div>
-      <div>
-        <label>
-          <span>По увеличению</span>
-          <input class="arrow_up" type="radio" name="search">
-        </label>
-        <label>
-          <span>По уменьшению</span>
-          <input class="arrow_down" type="radio" name="search">
-        </label>
-      </div>
-    </div>
+  <body class="page_body">
     
-    <h2>Результат фильтра</h2>  <!---Invisible--->
-    <ul class="content_list">
-      <li class="content_item">
-        <img class="img_content" src="https://gksouz-mk.ru/products/opory-truboprovodov/no-foto.jpg" alt="Фото гостиницы" width="135" height="90">
-        <p class="content_text">Amara Resort & Spa</p>
-        <p class="content_subtext">Гостиница</p>
-        <p class="content_subtext">От 4000 Р.</p>
-        <button class="button firstbutton" type="button">Подробнее</button>
-        <button class="button subbutton" type="button">Забронировать</button>
-        <span></span> <!---Для звездочек-->
-        <p class="rating">Рейтинг: 8,5</p>
-      </li>
-      <li class="content_item">
-        <img class="img_content" src="https://gksouz-mk.ru/products/opory-truboprovodov/no-foto.jpg" alt="Фото мотеля" width="135" height="90">
-        <p class="content_text">Desert Quail Inn</p>
-        <p class="content_subtext">Мотель</p>
-        <p class="content_subtext">От 3000 Р.</p>
-        <button class="button firstbutton" type="button">Подробнее</button>
-        <button class="button subbutton" type="button">Забронировать</button>
-        <span></span> <!---Для звездочек-->
-        <p class="rating">Рейтинг: 8,9</p>
-      </li>
-      <li class="content_item">
-        <img class="img_content" src="https://gksouz-mk.ru/products/opory-truboprovodov/no-foto.jpg" alt="Фото апартаментов" width="135" height="90">
-        <p class="content_text">Villas at Poco Diablo</p>
-        <p class="content_subtext">Апартаменты</p>
-        <p class="content_subtext">От 2000 Р.</p>
-        <button class="button firstbutton" type="button">Подробнее</button>
-        <button class="button subbutton" type="button">Забронировать</button>
-        <span></span> <!---Для звездочек-->
-        <p class="rating">Рейтинг: 9,2</p>
-        
-      </li>
-    </ul>
-  </section>
+    <!--Header-->
+    <header class="header">
+      <nav class="header_nav">
+        <ul class="header_nav_list">
+          <li class="header_nav_item"><a class="header_nav_link" href="blank.html">Информация</a></li>
+          <li class="header_nav_item"><a class="header_nav_link" href="blank.html">Фото и видео</a></li>
+          <li class="header_nav_item"><a class="header_nav_link" href="blank.html">Карта штата</a></li>
+          <li class="header_nav_item"><a class="header_nav_link" href="catalog.html">Гостиницы</a></li>
+        </ul>
+      </nav>
+      <a><img class="img_logo" src="https://komfort-pluss.ru/wp-content/uploads/2020/01/net-izobrazheniya-730x485.jpg" alt="Логотип сайта" width="138" height="70"></a>
+    </header>
 
-  <footer class="footer">
-
-    <section class="section_contacts">
-      <h2 class="contact_subtitle">Контакты</h2>      <!--invisible-->
-      <p class="contact_text">#visitSEDONA</p>
-      <a class="contact_link" href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</a>
+    <!--Формы фильтров-->
+    <section сlass="search_flat">
+      <h2>Фильтр поиска жилья</h2>   <!---Invisible--->
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <fieldset>
+          <legend class="name_form">Инфраструктура</legend>
+          <ul class="sort_list">
+            <li class="sort_item">
+              <input class="checkbox_filter" type="checkbox" name="swimming_pool" id="filter_swimming_pool" checked>
+              <label class="label_sort_text" for="filter_swimming_pool">Бассейн</label>
+            </li>
+            <li class="sort_item">
+              <input class="checkbox_filter" type="checkbox" name="parking" id="filter_parking">
+              <label class="label_sort_text" for="filter_parking">Паркинг</label>
+            </li>
+            <li class="sort_item">
+              <input class="checkbox_filter" type="checkbox" name="red" id="filter_red">
+              <label class="label_sort_text" for="filter_red">WI-FI</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend class="name_form">Тип жилья</legend>
+          <ul class="sort_list">
+            <li class="sort_item">
+              <input class="checkbox_filter" type="checkbox" name="hotel" id="filter_hotel" checked>
+              <label class="label_sort_text" for="filter_hotel">Гостиница</label>
+            </li>
+            <li class="sort_item">
+              <input class="checkbox_filter" type="checkbox" name="motel" id="filter_motel" checked>
+              <label class="label_sort_text" for="filter_motel">Мотель</label>
+            </li>
+            <li class="sort_item">
+              <input class="checkbox_filter" type="checkbox" name="apartments" id="filter_apartments" checked>
+              <label class="label_sort_text" for="filter_apartments">Апартаменты</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend class="name_form">Стоимость в сутки</legend>
+          <input type="range" min="0" max="3000" name="cost" id="filter_cost">
+          <label for="filter_cost"></label>
+        </fieldset>
+        <button class="button_catalog" type="submit">Показать</button>
+      </form>
     </section>
 
-    <section class="social">
-      <h2>Социальные сети</h2>      <!--invisible-->
-      <ul class="social_list">
-        <li class="social_item"><a class="social_link" href="twitter.com"><img class="social_icon" src="https://komfort-pluss.ru/wp-content/uploads/2020/01/net-izobrazheniya-730x485.jpg" alt="лого твиттер" width="17" height="17"></a></li>
-        <li class="social_item"><a class="social_link" href="facebook.com"><img class="social_icon" src="https://komfort-pluss.ru/wp-content/uploads/2020/01/net-izobrazheniya-730x485.jpg" alt="лого фейсбук" width="12" height="22"></a></li>
-        <li class="social_item"><a class="social_link" href="youtube.com"><img class="social_icon" src="https://komfort-pluss.ru/wp-content/uploads/2020/01/net-izobrazheniya-730x485.jpg" alt="лого ютуб" width="22" height="16"></a></li>
+    <section class="sort">
+      <div>
+        <p class="sort_text">Найдено: 3</p>
+        <p class="sort_subtext">Сортировка:</p>
+        <div>
+          <label class="radio_text">
+            <input class="radiobutton" type="radio" name="sort">По цене
+          </label>
+          <label class="radio_text">
+            <input class="radiobutton" type="radio" name="sort">По типу
+          </label>
+          <label class="radio_text">
+            <input class="radiobutton" type="radio" name="sort">По рейтингу
+          </label>
+        </div>
+        <div>
+          <label>
+            <span>По увеличению</span>
+            <input class="arrow_up" type="radio" name="search">
+          </label>
+          <label>
+            <span>По уменьшению</span>
+            <input class="arrow_down" type="radio" name="search">
+          </label>
+        </div>
+      </div>
+      
+      <h2>Результат фильтра</h2>  <!---Invisible--->
+      <ul class="content_list">
+        <li class="content_item">
+          <img class="img_content" src="https://gksouz-mk.ru/products/opory-truboprovodov/no-foto.jpg" alt="Фото гостиницы" width="135" height="90">
+          <p class="content_text">Amara Resort & Spa</p>
+          <p class="content_subtext">Гостиница</p>
+          <p class="content_subtext">От 4000 Р.</p>
+          <button class="button firstbutton" type="button">Подробнее</button>
+          <button class="button subbutton" type="button">Забронировать</button>
+          <span></span> <!---Для звездочек-->
+          <p class="rating">Рейтинг: 8,5</p>
+        </li>
+        <li class="content_item">
+          <img class="img_content" src="https://gksouz-mk.ru/products/opory-truboprovodov/no-foto.jpg" alt="Фото мотеля" width="135" height="90">
+          <p class="content_text">Desert Quail Inn</p>
+          <p class="content_subtext">Мотель</p>
+          <p class="content_subtext">От 3000 Р.</p>
+          <button class="button firstbutton" type="button">Подробнее</button>
+          <button class="button subbutton" type="button">Забронировать</button>
+          <span></span> <!---Для звездочек-->
+          <p class="rating">Рейтинг: 8,9</p>
+        </li>
+        <li class="content_item">
+          <img class="img_content" src="https://gksouz-mk.ru/products/opory-truboprovodov/no-foto.jpg" alt="Фото апартаментов" width="135" height="90">
+          <p class="content_text">Villas at Poco Diablo</p>
+          <p class="content_subtext">Апартаменты</p>
+          <p class="content_subtext">От 2000 Р.</p>
+          <button class="button firstbutton" type="button">Подробнее</button>
+          <button class="button subbutton" type="button">Забронировать</button>
+          <span></span> <!---Для звездочек-->
+          <p class="rating">Рейтинг: 9,2</p>
+          
+        </li>
       </ul>
     </section>
 
-    <section class="copyrite">
-      <p class="copyrite_text">Website by</p>
-      <a class="copyrite_link" href="https://htmlacademy.ru/intensive/htmlcss"><img src="https://komfort-pluss.ru/wp-content/uploads/2020/01/net-izobrazheniya-730x485.jpg" alt="лого академии"  width="115" height="41"></a>
-    </section>
-  </footer>
-</body>
+    <footer class="footer">
+
+      <section class="section_contacts">
+        <h2 class="contact_subtitle">Контакты</h2>      <!--invisible-->
+        <p class="contact_text">#visitSEDONA</p>
+        <a class="contact_link" href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</a>
+      </section>
+
+      <section class="social">
+        <h2>Социальные сети</h2>      <!--invisible-->
+        <ul class="social_list">
+          <li class="social_item"><a class="social_link" href="twitter.com"><img class="social_icon" src="https://komfort-pluss.ru/wp-content/uploads/2020/01/net-izobrazheniya-730x485.jpg" alt="лого твиттер" width="17" height="17"></a></li>
+          <li class="social_item"><a class="social_link" href="facebook.com"><img class="social_icon" src="https://komfort-pluss.ru/wp-content/uploads/2020/01/net-izobrazheniya-730x485.jpg" alt="лого фейсбук" width="12" height="22"></a></li>
+          <li class="social_item"><a class="social_link" href="youtube.com"><img class="social_icon" src="https://komfort-pluss.ru/wp-content/uploads/2020/01/net-izobrazheniya-730x485.jpg" alt="лого ютуб" width="22" height="16"></a></li>
+        </ul>
+      </section>
+
+      <section class="copyrite">
+        <p class="copyrite_text">Website by</p>
+        <a class="copyrite_link" href="https://htmlacademy.ru/intensive/htmlcss"><img src="https://komfort-pluss.ru/wp-content/uploads/2020/01/net-izobrazheniya-730x485.jpg" alt="лого академии"  width="115" height="41"></a>
+      </section>
+    </footer>
+  </body>
 </html>
