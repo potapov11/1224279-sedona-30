@@ -1,10 +1,13 @@
 .page_body {
+  min-height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
   font-family: "PT Sans", "Georgia", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px; 
   text-transform: uppercase;
-  /* text-align: center; */
 }
 
 /*Colors*/
@@ -28,6 +31,27 @@
 
 /*-----index_style----*/
 
+.page {
+  height: 100%;
+  width: 1280px;
+  background-color: var(--beige-color);
+}
+
+.page_main {
+  display: grid;
+  outline: 5px solid rgb(47, 22, 189);
+
+}
+
+.firstsection {
+  margin: 0 auto;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 4fr min-content;
+  outline: 5px solid rgb(211, 141, 35);
+}
 
 .header_nav_link {
   font-weight: 700;
@@ -42,12 +66,20 @@
   font-weight: 700;
   line-height: 26px;
   color: var(--black-color);
+  text-align: center;
 }
 
 .subtext {
   line-height: 26px;
+  text-align: center;
   text-transform: uppercase;
   color: var(--dark-gray-color);
+}
+
+.section_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  outline: 5px solid rgb(231, 14, 32);
 }
 
 .section_smalltitle {
@@ -62,6 +94,10 @@
   color: var(--dark-gray-color);
 }
 
+.section_search {
+  text-align: center;
+}
+
 .search_text {
   font-size: 30px;
   font-weight: 700;
@@ -72,6 +108,22 @@
 .search_subtext {
   line-height: 24px;
   color: var(--black-color);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  outline: 5px solid rgb(15, 15, 14);
+}
+
+.section_contacts {
+  justify-self: center;
+}
+.social {
+  justify-self: center;
+}
+.copyrite {
+  justify-self: center;
 }
 
 .button {
@@ -110,6 +162,11 @@
 
 /* Catalog_style*/
 
+.container {
+  min-width: 1055px;
+  margin: 0 auto;
+}
+
 .name_form {
   font-size: 16px;
   font-style: normal;
@@ -117,6 +174,14 @@
   line-height: 21px;
   color: var(--white-color);
 }
+
+.form_flat {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  outline: 5px solid gray;
+}
+
+
 
 .label_sort_text {
   line-height: 21px;
