@@ -50,7 +50,19 @@
 .header {
   display: grid;
   grid-template-columns: 4fr min-content;
+  background-color: var(--white-color);
   outline: 5px solid rgb(211, 141, 35);
+}
+
+.header_nav_list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.header_nav {
+  width: 1055px;
+
 }
 
 .header_nav_link {
@@ -76,7 +88,11 @@
   color: var(--dark-gray-color);
 }
 
-.section_list {
+.section_item:first-child {
+  width: 100%;
+}
+
+.section_sublist {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   outline: 5px solid rgb(231, 14, 32);
