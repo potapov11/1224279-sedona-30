@@ -5,7 +5,7 @@
   font-family: "PT Sans", "Georgia", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px; 
+  font-size: 14px;
   text-transform: uppercase;
 }
 
@@ -94,7 +94,7 @@
   color: var(--dark-gray-color);
 }
 
-/*----rid-сетка----*/
+/*----Grid-сетка----*/
 
 .section_list {
   display: grid;
@@ -175,6 +175,10 @@
 
 /*--grid поиск гостиницы--*/
 
+ul {
+  padding: 0;
+}
+
 .form {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -204,7 +208,7 @@
   grid-row: 3;
 }
 
-.dates:nth-child(1){
+.dates:nth-child(1) {
   grid-column: 2;
   grid-row: 1;
 }
@@ -293,6 +297,25 @@
   outline: 5px solid gray;
 }
 
+.sort_group {
+  display: flex;
+  align-items: center;
+}
+
+.subcontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 79%;
+}
+
+.sort_subtext {
+  margin: 0 0 0 40px;
+}
+
+.subsort_group {
+  margin-left: 40px;
+}
+
 .label_sort_text {
   line-height: 21px;
   color: var(--white-color);
@@ -310,7 +333,6 @@
   font-weight: 700;
   line-height: 26px;
   color: var(--black-color);
-  
 }
 
 .radio_text {
@@ -318,6 +340,14 @@
   font-style: normal;
   line-height: 18px;
   color: var(--light-blue-color);
+}
+
+.radio_text:nth-child(2) {
+  margin-left: 30px;
+}
+
+.radio_text:nth-child(3) {
+  margin-left: 30px;
 }
 
 /*--Сетка карточки гостиниц--*/
@@ -420,6 +450,23 @@
   text-transform: uppercase;
 }
 
+.social_list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+}
+
 .social_item {
   background-color: var(--light-blue-color);
+  width: 46px;
+  height: 46px;
+}
+
+.social_item:nth-child(1) {
+  margin-right: 6px;
+}
+
+.social_item:nth-child(3) {
+  margin-left: 6px;
 }
