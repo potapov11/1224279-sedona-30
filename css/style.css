@@ -175,7 +175,7 @@
 
 /*--grid поиск гостиницы--*/
 
-ul {
+.content_list {
   padding: 0;
 }
 
@@ -305,15 +305,13 @@ ul {
 .subcontainer {
   display: flex;
   justify-content: space-between;
-  width: 79%;
+  flex: auto;
+  margin-left: 40px;
+  
 }
 
 .sort_subtext {
   margin: 0 0 0 40px;
-}
-
-.subsort_group {
-  margin-left: 40px;
 }
 
 .label_sort_text {
@@ -342,11 +340,7 @@ ul {
   color: var(--light-blue-color);
 }
 
-.radio_text:nth-child(2) {
-  margin-left: 30px;
-}
-
-.radio_text:nth-child(3) {
+.radio_text:not(:first-child) {
   margin-left: 30px;
 }
 
@@ -453,20 +447,16 @@ ul {
 .social_list {
   display: flex;
   justify-content: center;
-  list-style: none;
   width: 100%;
+  list-style: none;
 }
 
 .social_item {
-  background-color: var(--light-blue-color);
   width: 46px;
   height: 46px;
+  background-color: var(--light-blue-color);
 }
 
-.social_item:nth-child(1) {
-  margin-right: 6px;
-}
-
-.social_item:nth-child(3) {
+.social_item:not(:first-child) {
   margin-left: 6px;
 }
