@@ -28,6 +28,17 @@
   --almost-gray: #666666;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 /*-----index_style----*/
 
 .page {
@@ -40,6 +51,8 @@
 .firstsection {
   text-align: center;
   margin: 0 auto;
+  background-image: url("../img/bg-index.jpg");
+  background-size: cover;
 }
 
 .header {
@@ -47,6 +60,10 @@
   height: 56px;
   background-color: var(--white-color);
   outline: 5px solid rgb(211, 141, 35);
+}
+
+.img_welcome {
+  margin-top: 77px;
 }
 
 .header_nav {
@@ -75,7 +92,7 @@
 
 .img_logo {
   position: absolute;
-  top: -16px;
+  top: 0px;
   left: 530px;
 }
 
@@ -307,7 +324,6 @@
   justify-content: space-between;
   flex: auto;
   margin-left: 40px;
-  
 }
 
 .sort_subtext {
