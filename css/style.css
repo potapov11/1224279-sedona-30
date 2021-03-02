@@ -518,10 +518,6 @@
   color: var(--white-color);
 }
 
-.legend_box {
-  overflow: hidden;
-}
-
 .range {
   width: 300px;
   height: 2px;
